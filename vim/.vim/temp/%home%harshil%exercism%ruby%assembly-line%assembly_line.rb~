@@ -1,0 +1,23 @@
+class AssemblyLine
+  def initialize(speed)
+    @speed = speed
+  end
+
+  def production_rate_per_hour
+    cars_produced_per_hour = 221
+    potential_production = @speed * cars_produced_per_hour
+    if @speed <= 4
+      potential_production
+    elsif @speed <= 8
+      potential_production * 0.9
+    elsif @speed == 9
+      potential_production * 0.8
+    elsif @speed == 10
+      potential_production * 0.77
+    end
+  end
+
+  def working_items_per_minute
+    raise 'Please implement the AssemblyLine#working_items_per_minute method'
+  end
+end

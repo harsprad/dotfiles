@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/harshil/repos/noughts-and-crosses/lib'
+let g:netrw_dirhist_5='/home/harshil/repos/noughts-and-crosses'
+let g:netrw_dirhist_4='/home/harshil/Documents/cv'
+let g:netrw_dirhist_3='/usr/share/texlive/readme-txt.dir'
+let g:netrw_dirhist_2='/home/harshil/repos/javascript-exercises/08_calculator/solution'
+let g:netrw_dirhist_1='/usr/share/vim/vim82'

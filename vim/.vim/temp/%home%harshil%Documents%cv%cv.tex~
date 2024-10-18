@@ -1,0 +1,25 @@
+\documentclass[12pt]{article}
+
+\usepackage{tabularx}
+\usepackage{lipsum}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{flushright}
+	\Huge
+	\textbf{Harshil Pradip}
+	\normalsize
+	\par hi
+\end{flushright}
+
+\begin{tabularx}{\textwidth}{p{5cm} X}
+	Work Experience &
+	\lipsum[1]\\
+
+	Education &
+	\lipsum[1] \\
+\end{tabularx}
+
+\end{document}

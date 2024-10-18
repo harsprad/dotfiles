@@ -1,0 +1,14 @@
+def substrings(word, dict)
+  collection = Hash.new(0)
+  word_lower = word.downcase
+  for entry in dict
+    offset = 0
+    loop do
+      break unless word_lower.match?(entry, offset)
+      collection[entry] += 1
+      offset = (word_lower.index(entry, offset) || 0) + 1
+      puts "#{entry}, #{offset}"
+    end
+  end
+  return collection
+end

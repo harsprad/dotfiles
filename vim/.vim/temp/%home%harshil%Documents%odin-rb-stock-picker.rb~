@@ -1,0 +1,19 @@
+def stock_picker(prices)
+  range = prices
+  profit = 0
+  result = []
+
+  until range.length == 1
+    min_price = range.min
+    min_index = range.index(min_price)
+    max_price = range[min_index..-1].max
+    max_index = min_index + range[min_index..-1].index(max_price)
+
+    if max_price - min_price >= profit
+     result = [min_index, max_index]
+    end
+
+    range = range[0..(min_index-1)]
+  end
+  result
+end

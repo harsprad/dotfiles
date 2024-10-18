@@ -1,0 +1,17 @@
+class RotationalCipher
+  def rotate(word, rotation)
+    alphabet = "a".upto("z").to_a
+    alphabet_big = "A".upto("Z").to_a
+    new_word = []
+    word = word.split("")
+    word.each do |character|
+      if alphabet.include?(character)
+        character = alphabet[(alphabet.index(character) + rotation) % 26]
+      elsif alphabet_big.include?(character)
+        character = alphabet_big[(alphabet_big.index(character) + rotation) % 26]
+      end
+      new_word.push(character)
+    end
+    new_word.join("")
+  end
+end

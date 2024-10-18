@@ -1,0 +1,17 @@
+const findTheOldest = function(people) {
+	people.forEach( person => {
+		if (!("yearOfDeath" in person)) {
+			person.yearOfDeath = Date().getFullYear();
+		}
+		person.age = person.yearOfDeath - person.yearOfBirth;
+	});
+
+	let initial = { age: 0 };
+	return people.reduce( (oldest, person) => {
+		return oldest.age > person.age ? oldest : person;
+	});
+
+};
+
+// Do not edit below this line
+module.exports = findTheOldest;

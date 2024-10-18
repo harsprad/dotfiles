@@ -1,0 +1,27 @@
+def bubble_sort(arr)
+  new_arr = arr.slice(0..-1)
+  sort_loop = new_arr.length - 2
+
+  until sort_loop < 0
+    for i in 0.upto(sort_loop)
+      if new_arr[i] > new_arr[i + 1]
+        new_arr = entry_switch(new_arr, i, i+1)
+      end
+    end
+    sort_loop -= 1
+  end
+  
+  new_arr
+end
+
+def entry_switch(arr, index_1, index_2)
+  entry_1 = arr[index_1]
+  entry_2 = arr[index_2]
+
+  new_arr = arr.slice(0..-1)
+  new_arr.delete_at(index_1)
+  new_arr.insert(index_1, entry_2)
+  new_arr.delete_at(index_2)
+  new_arr.insert(index_2, entry_1)
+  new_arr
+end

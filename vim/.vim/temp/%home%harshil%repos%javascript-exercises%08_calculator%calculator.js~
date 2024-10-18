@@ -1,0 +1,37 @@
+const add = function(a, b) {
+	return +a + +b;	
+};
+
+const subtract = function(a, b) {
+	return +a - +b;
+};
+
+const sum = function(arr) {
+	return [...arr].reduce(add,0);
+};
+
+const multiply = function(nums) {
+	return [...nums].reduce(((prod, num) => +prod * +num) , 1);
+};
+
+const power = function(a, n) {
+	let out = 1;
+	for (let i=0; i<n; i++) {
+		out *= a;
+	}
+	return out;
+};
+
+const factorial = function() {
+	
+};
+
+// Do not edit below this line
+module.exports = {
+  add,
+  subtract,
+  sum,
+  multiply,
+  power,
+  factorial
+};

@@ -1,0 +1,24 @@
+=begin
+Write your code for the 'Allergies' exercise in this file. Make the tests in
+`allergies_test.rb` pass.
+
+To get started with TDD, see the `README.md` file in your
+`ruby/allergies` directory.
+=end
+
+class Allergies
+  @@allergens = %w(eggs peanuts shellfish strawberries tomatoes chocolate pollen cats)
+
+  def initialize(allergies)
+    @allergies = allergies
+  end
+
+  def allergic_to?(allergen)
+    binary_index = @@allergens.index(allergen)
+    (2 ** binary_index) & @allergies != 0
+  end
+
+  def list
+    @@allergens.filter.with_index{ |_, ind| (2 ** ind) & @allergies != 0 }
+  end
+end
