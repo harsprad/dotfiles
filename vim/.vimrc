@@ -46,6 +46,26 @@ if has('syntax') && has('eval')
 	packadd! matchit
 endif
 
+
+" Return to where you left off
+" Load session if .session.vim exists in the project directory
+autocmd VimEnter * if filereadable(".session.vim") | source .session.vim | endif
+
+" Prompt to update session on exit
+autocmd VimLeavePre * call UpdateProjectSession()
+
+function! UpdateProjectSession()
+  if filereadable(".session.vim")
+    let l:answer = input("Update .session.vim? [y/N]: ")
+    if l:answer ==# 'y'
+      execute "mksession! .session.vim"
+      echo ".session.vim updated."
+    else
+      echo "Session not updated."
+    endif
+  endif
+endfunction
+
 " }}}
 
 
@@ -65,6 +85,9 @@ nnoremap <F2> :call ToggleLineNumbering()<CR>
 
 " F7 - Indent entire file (cursor remains in place)
 map <F7> mzgg=G<CR>`z
+
+" :SS - run mksession with .session.vim file name
+command! SS execute 'mksession! .session.vim'
 
 " }}}
 
