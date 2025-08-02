@@ -1,1224 +1,3 @@
-git status
-git add *
-git commit -m "Initialise rspec"
-git log --oneline --graph
-vim spec/caeser_test.rb
-ls
-mkdir lib
-mv caeser.rb lib/
-ls
-cd lib/
-ls
-cd ..
-rubocop
-bundle exec rubocop --init
-bundle install
-bundle exec rubocop --init
-vim .rubocop.yml 
-rubocop
-vim .rubocop.yml 
-rubocop
-vim .rubocop.yml 
-fg
-rubocop
-fg
-rubocop
-fg
-ls ..
-vim ../mastermind/.rubocop.yml 
-vim .rubocop.yml 
-rubocop
-rubocop -a
-rubocop -A
-rubocop
-git add *
-git status
-git commit .*
-git add .*
-git status
-git commit -m "Shuffle and rubocop"
-ls
-git log --oneline --graph
-mv spec/caeser_test.rb spec/caeser_spec.rb
-git commit -am "rename test file"
-git status
-git add *
-git ammend 
-git commit --ammend
-git commit --amend
-git log --oneline --graph
-git status
-vim spec/caeser_spec.rb 
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-ruby
-irb
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-git commit -am "Spec: tested main and translate method"
-fg
-exit
-cd /usr/local/
-ls
-cd bin/
-ls
-cd /
-ls
-cd etc/
-ls
-cd grub.d/
-las
-ls
-cd ..
-cd default/
-ls
-sudo vim grub
-sudo grub-update
-sudo vim grub
-sudo update-grub
-sudo vim grub
-cd ~
-gedit
-grep -e ^menuentry /boot/grub/grub.cfg
-sudo vim /etc/default/grub
-sudo update-grub
-grep -e ^menuentry /boot/grub/grub.cfg
-sudo vim /etc/default/grub
-sudo update-grub
-sudo vim /etc/default/grub
-sudo update-grub
-sudo vim /etc/default/grub
-sudo update-grub
-sudo vim /etc/default/grub
-sudo vim /etc/crontab 
-crontab -l
-sudo crontab -e
-exit
-sudo vim /etc/default/grub
-sudo update-grub
-exit
-cd repos/caeser-cipher/
-ls
-git log --oneline --graph
-vim spec/caeser_spec.rb 
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-fg
-rspec spec/caeser_spec.rb 
-git commit -am "Spec: create_cipher tested"
-git log --oneline --graph
-git commit --amend
-git log --oneline --graph
-git checkout main 
-git merge tdd
-git log --oneline --graph
-git branch -d tdd
-git push
-git log --oneline --graph
-cd ../noughts-and-crosses/
-ls
-fg
-vim main.rb 
-ruby main.rb 
-vim main.rb 
-ruby main.rb 
-fg
-ls
-rspec --init
-ls -a
-git log --oneline --graph
-git checkout -b "tdd"
-git log --oneline --graph
-git add .
-git status
-git commit -m "Spec: initialise"
-git log --oneline --graph
-vim spec/grid_spec.rb
-fg
-exit
-cd repos/noughts-and-crosses/
-ls
-vim spec/grid_spec.rb 
-rspec spec/grid_spec.rb 
-vim spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-vim .rspec 
-rspec spec/grid_spec.rb 
-vim .rspec 
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-git commit -am "Spec: test row_win in Grid'
-'
-"
-git commit -amend
-y
-git commit --amend
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-exit
-cd repos/
-cd noughts-and-crosses/
-git log --oneline --graph
-vim spec/grid_spec.rb 
-rspec spec/grid_spec.rb 
-git commit -am "Spec: test transpose in Grid"
-git add *
-git commit -am "Spec: test transpose in Grid"
-git log --oneline --graph
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-git commit -am "Spec: test rotate in Grid"
-fg
-rspec spec/grid_spec.rb 
-fg
-rspec spec/grid_spec.rb 
-fg
-git commit -am "Spec: test add in Grid"
-git log --oneline --graph
-git checkout main 
-git merge
-git log --oneline --graph
-git merge tdd 
-git log --oneline --graph
-git push
-git help 
-git branch -help
-git branch -d tdd
-git log --oneline --graph
-git push
-cd ..
-git clone git@github.com:harsprad/connect-four.git
-cd connect-four/
-ls ..
-ls
-mkdir lib
-rspec --init
-vim .rspec 
-ls
-bundle init
-ls
-vim Gemfile 
-bundle -help
-bundle help
-bundle rubocop
-bundle exec rubocop
-bundle add rubocop
-bundle exec rubocop
-fg
-exit
-ls
-ls -a
-cd .config
-ls
-cd ..
-vim .gitconfig 
-cd dotfiles
-ls
-ls -a
-vim .gitignore 
-cd .git/
-ls
-cd ..
-cd vim/
-ls
-ls -a
-vim .vimrc
-cd repos/
-ls
-cd noughts-and-crosses/
-ls
-cd ../connect-four/
-ls 0a
-ls -a
-bundle exec rubocop
-bundle exec rubocop --init
-vim .rubocop.yml 
-bundle exec rubocop
-vim .rubocop.yml 
-bundle exec rubocop
-fg
-vim .rubocop.yml 
-bundle exec rubocop
-fg
-bundle exec rubocop
-fg
-bundle exec rubocop
-fg
-bundle exec rubocop
-fg
-bundle exec rubocop
-fg
-bundle exec rubocop --version
-fg
-vim Gemfile
-vim .rubocop.yml 
-bundle exec rubocop
-ls spec/
-ls lib/
-git add .*
-git add *
-git status
-git commit -m "Prep project"
-git log --oneline --graph
-fg
-exit
-cd repos/connect-four/
-ls
-git log
-cd lib
-ls
-cd ..
-touch lib/grid.rb
-touch spec/spec_grid.rb
-vim */*grid.rb
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-grep instance_variable ~/repos/ruby_testing/spec/*
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-git add *
-git commit -am "Set up grid and run one test"
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-exit
-cd repos/connect-four/
-ls
-vim *grid.rb
-vim */*grid.rb
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-exit
-cd repos/connect-four/
-ls
-git log --oneline --graph
-vim */*grid.rb
-rspec spec/spec_grid.rb 
-fg
-irb
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-exit
-cd repos/connect-four/
-vim */*grid.rb
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-irb
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-git add .
-git status
-git log --oneline --graph
-git commit -am "Feat,Spec: grid print method"
-git commit -amend
-git commit --amend
-git log --oneline --graph
-fg
-git commit --amend
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-git commit -am "Minor: rename print to inspect"
-git log --oneline --graph
-fg
-exit
-cd repos/connect-four/
-vim */*grid.rb
-git log --oneline --graph
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-irb
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-git commit -am "Spec,Feat: grid array_win method"
-exit
-cd repos/connect-four/
-vim */*grid.rb
-rspec spec/grid_spec.rb 
-rspec spec/spec_grid.rb 
-git log --oneline --graph
-fg
-exit
-cd repos/connect-four/
-vim */*grid.rb
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-git commit -am "Spec,Feat: grid row_win method"
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-gi
-git commit -am "Spec,Feat: grid transpose method"
-git log --oneline --graph
-fg
-exit
-cd repos/connect-four/
-vim */*.rb
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-exit
-fg
-exit
-cd repos/connect-four/
-ls
-vim */*grid.rb
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-git commit -am "Spec,Feat: grid rotate method"
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-exit
-cd repos/connect-four/
-vim */*.grid
-vim */*grid.rb
-git log --oneline --graph
-git commit -am "Spec,Feat: grid win method"
-fg
-bundle exec rubocop
-bundle exec rubocop -a
-rspec spec/spec_grid.rb 
-bundle exec rubocop
-bundle exec rubocop -A
-rspec spec/spec_grid.rb 
-fg
-bundle exec rubocop
-fg
-vim */*grid.rb
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-exit
-cd repos/connect-four/
-vim */*.rb
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-git commit -am "Spec,Feat: grid player_input method"
-fg
-bundle exec rubocop
-bundle exec rubocop -a
-bundle exec rubocop
-irb -r "./lib/grid.rb" 
-fg
-vim spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-git add *
-git status
-git commit --amend
-git log --oneline --graph
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-git commit -am "Fix: Spec not checking string"
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-git commit -am "Spec,Feat: grid full method"
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-fg
-rspec spec/spec_grid.rb 
-git commit -am "Spec,Feat: grid as a whole"
-touch lib/main.rb
-fg
-irb -r "./lib/main.rb" 
-git add *
-git status
-git commit -m "Feat: create main script"
-git push
-exit
-fg
-exit
-cd repos/
-git clone git@github.com:harsprad/chess.git
-exit
-cd repos/chess/
-ls
-bundle init
-ls
-bundle add rubocop
-bundle exec rubocop
-bundle rubocop --init
-bundle exec rubocop --init
-vim .rubocop.yml 
-fg
-bundle exec rubocop
-fg
-mkdir lib
-mkdir spec
-touch spec/test.rb
-rspec spec/test.rb 
-rm -rI spec
-ls
-rm -rI spec/*
-ls
-cd spec/
-ls
-cd..
-cd ..
-rm -rI ./spec/*
-ls
-rm -r spec
-ls
-rspec --init
-ls
-vim .rspec 
-rspec spec/spec_helper.rb 
-vim .rspec 
-fg
-rspec spec/spec_helper.rb 
-rspec --help
-fg
-rspec spec/spec_helper.rb 
-fg
-git add -h
-git add -f *
-git status
-git add -f -v *
-git add .*
-git status
-git commit -m "Set up rubocop and rspec"
-exit
-cd repos/
-ls
-cd chess/
-ls
-git log --oneline --graph
-cd lib/
-ls
-touch chess_board.rb
-touch pawn.rb
-touch rook.rb
-touch knight.rb
-touch bishop.rb
-touch queen.rb
-touch king.rb
-touch chess.rb
-vim chess_board.rb
-git add .
-git commit -m "Set up files and board class"
-git status
-git log --oneline --graph
-fg
-cd repos/chess/
-ls
-git log --oneline --graph
-vim lib/*
-ls
-cd lib
-ls
-mkdir pieces
-mv * pieces/*
-mv -h
-mv --help
-ls
-mv * -t pieces
-ls
-cd pieces/
-ls
-mv chess* -t ./../
-ls
-cd ..
-ls
-git add *
-git commit -m "Fix: rearranged file structure"
-git log --oneline --graph
-vim chess_board.rb 
-fg
-exit
-cd repos/chess/
-ls
-cd lib
-ls
-vim chess.rb pieces/pawn.rb 
-cd ..
-ls spec/
-touch spec_chess_board.rb
-fg
-mv spec_chess_board.rb spec/spec_chess_board.rb
-ls
-vim spec/spec_chess_board.rb 
-rspec spec/spec_helper.rb 
-fg
-rspec spec/spec_helper.rb 
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-exit
-cd repos/
-ls
-cd crispy-chainsaw/
-ls
-cd..
-cd ..
-cd ruby_testing/
-vim spec/15a_binary_game_spec.rb 
-cd ..
-cd connect-four/
-ls
-cd spec/
-ls
-vim spec_grid.rb 
-exit
-cd repos/chess/
-ls
-git log --oneline --graph
-ls
-vim lib/chess_board.rb
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-
-git log --oneline --graph
-fg
-touch lib/pieces/piece.rb
-vim lib/pieces/*
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-git commit -am "Fix: pieces simplification"
-vim lib/chess_board.rb 
-fg
-ls
-exit
-cd repo
-cd repos/chess
-ls
-vim lib/chess_board.rb pieces/*
-vim lib/chess_board.rb lib/pieces/*
-cd repos/chess/
-vim ~/.vimrc
-vim lib/chess_board.rb lib/pieces/*
-vim
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-vim
-fg
-vim
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-git commit -am "Feat(Spec): basic skeleton and move method"
-git log --oneline --graph
-git push
-fg
-exit
-cd repos/chess/
-vim
-git log --oneline  --graph
-fg
-git commit -am "Refactor: extract move logic"
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-vim
-exit
-cd repos/chess/
-vim
-git log --oneline  --graph
-git diff
-fg
-rspec spec/spec_grid.rb 
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-git add .
-git commit -am
-git commit -m
-git commit
-fg
-vim
-git log --oneline  --graph
-git log  --graph
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-git commit -am "Test: unit tests for switch_turn"
-fg
-exit
-cd repos/chess/
-vim
-git log --oneline  --graph
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-git commit -am "Feat:(Tested) deep_copy_board method"
-fg
-exit
-cd repos/chess/
-vim
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-exit
-cd repos/chess/
-cd ..
-ls
-cd ruby-exercises/
-ls
-cd ruby_basics/
-ls
-cd ../..
-cd ..
-ls
-cd Documents/
-ls
-cd ruby_testing/
-ls
-cd lib/
-ls
-vim calculator.rb 
-ls
-ls -a
-cd ..
-cd dadi
-cd ..
-cd dadi
-ls
-cd..
-cd ..
-cd dadi2
-ls
-cd ..
-cd ../repos/chess/
-ls
-clear
-vim
-exit
-cd repos/chess/
-vim
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
 fg
 rspec spec/spec_chess_board.rb 
 fg
@@ -1997,4 +776,1225 @@ fg
 exit
 cd repos/chess/
 git log --oneline --graph
+exit
+cd dotfiles/
+git status
+git commit -a
+git log
+git status
+git push
+git log --oneline --graph
+git remote -v
+git remote add origin git@github.com:harsprad/dotfiles.git
+git push origin git@github.com:harsprad/dotfiles.git
+git push origin github.com:harsprad/dotfiles.git
+git remote -v
+git remote add origin https://github.com/harsprad/dotfiles/tree/main
+git remove rm origin
+git remote rm origin
+git remote -v
+git remote add origin git@github.com:harsprad/dotfiles.git
+git remote -v
+git push
+git log --oneline --graph
+git push --set-upstream origin main
+git log --oneline --graph
+ls
+cd ..
+
+git pull
+git log --oneline --graph
+vim
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+git commit -am "Refactor: encorporate en_passant_able"
+git push
+exit
+fg
+exit
+cd repos/chess/
+vim
+git log --oneline --graph
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+git commit -am "Feat:(Tested) execute_move on en passant"
+fg
+exit
+cd repos/
+cd chess/
+vim
+irb -r "./lib/chess.rb" 
+fg
+irb -r "./lib/chess.rb" 
+fg
+touch spec/spec_chess.rb
+fg
+vim
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+git commit -am "Fix:(Tested) en passant integrated"
+git push
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+git commit -am "Refactor: play method"
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+git log
+git commit -am "Feat:(Tested) stalemate? method"
+fg
+exit
+cd repos/chess/
+vim
+rspec spec/spec_chess_board.rb 
+git log --oneline --graph
+fg
+git commit --ammend
+git commit --amend
+git log --oneline --graph
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+ls
+fg
+rm ]
+ls
+git commit -am "Refactor: merge game over methods"
+vim
+rspec spec/spec_chess_board.rb 
+git commit -am "Refactor: add promotion piece to history"
+fg
+git commit -am "Feat: game_over method"
+fg
+git commit -am "Clean: modularised some play method logic"
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+git log --oneline --graph
+git commit -am "Test: play method"
+git push
+fg
+exit
+cd repos/chess/
+vim
+rspec spec/spec_chess.rb 
+g
+df
+fg
+git add .
+git commit --amend
+git status
+git push
+git pull
+git push
+git log --oneline --graph
+git reset HEAD~3
+git log --oneline --graph
+fg
+git status
+rspec spec/spec_chess.rb 
+git commit -am "Test: play method"
+git log --oneline --graph
+git push
+git pull
+git log --oneline --graph
+git push -f origin d9644a4:main
+git log --oneline --graph
+rubocop
+rubocop -a
+rspec spec/spec_chess.rb 
+rspec spec/spec_chess_board.rb 
+rspec spec/spec_king.rb 
+rspec spec/spec_knight.rb 
+rspec spec/spec_common_moves.rb 
+rspec spec/spec_pawn.rb 
+git commit -am "Fix: rubocop autocorrect"
+rubocop
+rubocop -a
+fg
+vim
+rspec spec/spec_common_moves.rb 
+fg
+rspec spec/spec_common_moves.rb 
+rubocop
+rubocop -A
+rspec spec/spec_pawn.rb 
+rspec spec/spec_chess_board.rb 
+fg
+vim
+rubocop
+fg
+rubocop
+fg
+rubocop
+fg
+rubocop
+fg
+rubocop
+fg
+rubocop
+fg
+rubocop
+fg
+rubocop
+git status
+git add .
+git status
+git restore --staged spec/spec_chess.rb 
+git status
+git commit -m "Conf: rubocop cops"
+git add .
+git commit -m "Test: chess game"
+git status
+git log --oneline --graph
+rubocop
+fg
+rubocop
+git commit -am "Fix: one line method"
+rubocop -a
+git commit -am "Fix: rubocop autocorrect"
+rubocop
+rubocop -A
+git --amend
+git commit --amend
+rubocop
+fg
+vim
+exit
+cd repos/chess/
+ls
+vim
+rspec spec/spec_chess.rb 
+git status
+git commit -am "Clean: chess spec files"
+git log --oneline --graph
+ip route show
+windscribe-cli disconnect
+windscribe-cli connect
+ip route show
+sudo ip route replace default dev utun420
+curl ipconfig.me
+curl https://ipconfig.me
+ip route show
+cat /etc/resolv.conf 
+resolvectl status
+resolvectl query example.com
+resolvectl status
+resolvectl query example.com
+fg
+sudo vim /etc/systemd/resolved.conf 
+sudo systemctl restart systemd-resolved.service 
+resolvectl status 
+sudo vim /etc/systemd/resolved.conf 
+cd repos/chess/
+git log --oneline --graph
+fg
+rspec spec/spec_chess_board.rb 
+fg
+vim
+git log --oneline --graph --decorate
+git switch -c pgn
+git log --oneline --graph --decorate
+git status
+git checkout pgn 
+git log --oneline --graph --decorate
+fg
+touch lib/modules/pgn_tools.rb
+ls spec/
+ls spec/support/
+ls -a spec/support/
+fg
+vim
+touch spec/spec_pgn_tools.rb
+vim lib/chess_board.rb 
+cd  ~
+ls
+ls -a
+vim .vimrc
+cd -
+ls -a
+rm .session.vim 
+ls
+ls -a
+vim lib/chess_board.rb 
+git add .
+git status
+git commit -am "Files: pgn tools skeleton"
+git log --oneline --graph --decorate --all
+fg
+vim
+vim -p lib/chess_board.rb lib/modules/pgn_tools.rb 
+vim lib/chess_board.rb lib/modules/pgn_tools.rb spec/spec_pgn_tools.rb 
+vim
+exit
+vim
+git status
+vim .git/config
+ls
+ls -a
+ls .git/
+.ls -a .git
+ls -a .git
+touch .gitignore
+vim .gitignore 
+ls
+ls -a
+git status 
+mv .gitignore ../.gitignore
+mv .session.vim  ../session.vim
+git status
+git commit -am "temp"
+git log --oneline --graph --decorate --all
+git checkout main
+ls
+ls -a
+vim
+touch lib/modules/coordinate_tools.rb
+vim lib/modules/coordinate_tools.rb 
+exit
+fg
+exit
+cd repos/chess/
+ls
+vim
+git log --oneline --graph --decorate --all
+mv ../.gitignore .gitignore
+ls
+ls -a
+git status
+git add .gitignore 
+git status
+git commit -m "Clean: ignore session vim files"
+git log --oneline --graph --decorate --all
+vim
+rspec spec/spec_chess.rb 
+fg
+git add .
+git status
+git commit -m "Refactor: chess use coordinate tools"
+git log --oneline --graph --decorate --all
+git merge pgn
+ls -a
+git log --oneline --graph --decorate --all
+git checkout pgn 
+git merge main
+git log --oneline --graph --decorate --all
+mv ../session.vim ./session.vim
+ls
+ls -a
+vim
+ls -a ..
+mv session.vim .session.vim
+vim
+ls
+git log 
+git log --oneline --graph --decorate --all
+exit
+cd repos/chess/
+git log --oneline --graph --decorate --all
+vim
+git commit -am "Clean: to coord method more clear"
+fg
+rspec spec/spec_chess.rb 
+fg
+git log --oneline --graph --decorate --all
+git commit -am "Feat: coord_to_notation method"
+fg
+git status
+vim
+fg
+git checkout main 
+git stash list
+git stash show
+git stash
+git checkout main
+ls -a
+vim
+git commit -am "Feat: board difference method"
+fg
+git commit -am "Feat: history shows capture"
+fg
+ls
+git checkout pgn 
+git stash apply
+ls
+git merge main
+git log --oneline --graph --decorate --all
+fg
+vim
+fg
+exit
+cd repos/chess/
+ls
+irb -r "./lib/chess.rb" 
+fg
+vim
+irb -r "./lib/chess.rb" 
+fg
+git log --oneline --graph --decorate --all
+vim
+git commit -am "Feat: sibling piece method"
+git push
+git log --oneline --graph --decorate --all
+git checkout main
+git merge pgn 
+git log --oneline --graph --decorate --all
+git push
+git log --oneline --graph --decorate --all
+exit
+sudo apt update
+sudo apt upgrade
+exit
+cd repos/chess/
+ls
+whoami
+date
+echo Hello World
+pwd
+cat
+cat Gemfile
+cat Gemfile.lock 
+cat -h 5 Gemfile.lock
+cat 5 Gemfile.lock
+man cat
+cat -n 5 Gemfile
+man cat
+less Gemfile.lock 
+clear
+file Gemfile
+file Gemfile.lock 
+file lib/chess.rb 
+file lib/chess_board.rb 
+file spec/spec_helper.rb 
+file spec/spec_chess.rb 
+clear
+vim
+git log --oneline --graph --decorate --all
+fg
+vim
+fg
+exit
+cd repos/chess/
+vim
+git log --oneline --graph --decorate --all
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+git commit -am "Feat: history to pgn method"
+fg
+rspec spec/spec_chess.rb 
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+fg
+rspec spec/spec_chess_board.rb 
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+eixt
+exit
+cd repos/chess/
+vim
+git commit -am "Feat: history to pgn method"
+git log --oneline --graph --decorate --all
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+g
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+git commit --amend
+git log --oneline --graph --decorate --all
+git log --oneline --graph --decorate
+fg
+git log --oneline --graph --decorate
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+git commit -am "Feat(Test): move_to_pgn_notation method basic"
+fg
+exit
+cd repos/chess/
+vim
+ls
+fg
+git log --oneline --graph --decorate
+rspec spec/spec_pgn_tools.rb 
+fg
+vim
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+ls lib/modules/
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+g
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+exit
+cd repos/chess/
+git log --oneline --graph --decorate
+vim
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+gh
+fg
+gh
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_common_moves.rb 
+fg
+rspec spec/spec_common_moves.rb 
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+git log --oneline --graph --decorate
+git commit -am "Feat(Tested): history_to_pgn method"
+exit
+fg
+exit
+cd repos/chess/
+git log --oneline --graph --decorate
+fg
+vim
+irb
+fg
+mkdir save
+irb
+vim
+fg
+
+fg
+irb -r "./lib/chess.rb" 
+fg
+irb -r "./lib/chess.rb" 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+rm save/.pgn 
+ls -a save/
+fg
+ls -a save/
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+cat save/rspec_test_file.pgn 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+cat save/rspec_test_file.pgn 
+fg
+vim
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+git add .gitignore 
+git status
+git commit -am "Feat(Tested): saving a game to file"
+git status
+git add .
+git status
+git commit --amend 
+git status
+git commit --amend 
+git log --oneline --graph --decorate
+git push
+git log --oneline --graph --decorate
+git branch -d pgn 
+git log --oneline --graph --decorate
+fg
+vim
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+git commit -am "Feat(Tested): load method without loading"
+git log --oneline --graph --decorate
+fg
+exit
+cd repos/chess/
+vim
+irb
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+rspec spec
+rspec spec/
+rspec
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+rspec spec/*
+fg
+vim
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+irb
+fg
+irb
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+irb
+fg
+irb
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+git status
+git commit -am "Feat(Tested): algebraic_to_coord method"
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+gh
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+fg
+rspec spec/spec_pgn_tools.rb 
+git commit -am "Feat(Tested): parse_pgn method"
+fg
+exit
+cd repos/chess/
+vim
+fg
+irb -r "./lib/chess.rb" 
+fg
+irb -r "./lib/chess.rb" 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+git push
+git log --oneline --graph --decorate
+exit
+fg
+exit
+cd repos/chess/
+git log --oneline --graph --decorate
+spec spec/*
+rspec spec/*
+vim
+fg
+rspec spec/spec_chess.rb 
+fg
+ls save
+ls
+fg
+ls
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+ls save/
+fg
+ls save/
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+fg
+rspec spec/spec_chess.rb 
+git commit -am "Feat(Tested): loading save files from game"
+git status
+git push
+fg
 exit
