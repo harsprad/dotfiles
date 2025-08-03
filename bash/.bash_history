@@ -1,47 +1,3 @@
-fg
-rspec spec/spec_chess_board.rb 
-fg
-git log --oneline  --graph
-git commit -am "Feat:(Tested) single_to_multi_index method"
-fg
-git commit -am "Feat:(Tested) single_to_multi_index method"
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
-git commit --amend
-ls
-git log --oneline  --graph
-git commit --amend
-git log --oneline  --graph
-git status
-git add .
-git status
-git commit --amend
-git log --oneline  --graph
-fg
-vim
-exit
-repos/chess/
-cd repos/chess/
-ls
-vim
-git log --oneline  --graph
-fg
-rspec spec/spec_chess_board.rb 
-git commit -am "Clean: use other colour for switch turn"
-fg
-rspec spec/spec_chess_board.rb 
-git commit -am "Fix: king_location use other boards"
-fg
-rspec spec/spec_chess_board.rb 
-fg
-rspec spec/spec_chess_board.rb 
-fg
 rspec spec/spec_chess_board.rb 
 fg
 rspec spec/spec_chess_board.rb 
@@ -1997,4 +1953,48 @@ git commit -am "Feat(Tested): loading save files from game"
 git status
 git push
 fg
+exit
+ls -a
+ls .vim
+ls .vimrc
+vim .vimrc
+vim
+vim .vimrc
+vim
+vim .vimrc
+vim
+vim .vimrc
+vim
+fg
+ls
+cd dotfiles/
+git status
+vim .gitignore 
+:ls
+ls
+ls -a
+ls -a bash/
+fg
+ls
+git status
+git add .gitignore 
+git commit -m "Update ignore"
+git status
+git add -am "Added emmet to vim"
+git commit -am "Added emmet to vim"
+git log --oneline --graph --decorate
+git push
+cd ~
+vim
+fg
+cd dotfiles/
+git commit --ammend
+git commit --amend
+git push
+git log --oneline --graph --decorate
+git push -f
+git log --oneline --graph --decorate
+fg
+cd ~
+vim
 exit

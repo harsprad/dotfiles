@@ -73,7 +73,8 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 call plug#begin()
-Plug 'mattn/emmet-vim' #trigger key is <C-Y> so type '<C-Y>,'
+" trigger key is <C-Y> so type '<C-Y>,'
+Plug 'mattn/emmet-vim'
 call plug#end()
 
 " }}}
