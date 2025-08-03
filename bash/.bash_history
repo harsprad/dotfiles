@@ -1998,3 +1998,18 @@ fg
 cd ~
 vim
 exit
+cd -
+cd repos/chess/
+vim -S .session.vim 
+rm .session.vim 
+ls 0a
+ls -a
+fg
+ls -a
+fg
+vim 
+ls -a
+vim -S
+ls
+vim -S
+vim

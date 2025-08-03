@@ -16,6 +16,7 @@ set hidden
 syntax sync fromstart
 
 " zo = open fold, zc = close fold, zR = open all folds, zM = close all folds
+
 " TEMP FILES ------------------------------------------------------------ {{{
 
 " Back up options
@@ -36,6 +37,54 @@ set directory=~/.vim/temp//,.
 " }}}
 
 
+" FUZZY FIND ------------------------------------------------------------ {{{
+
+set path+=**
+set wildmenu
+
+" }}}
+
+
+" TAG JUMPING ------------------------------------------------------------ {{{
+
+command! MakeTags !ctags -R
+
+"Use ^] to jump to tag under cursor
+"Use g^] for ambiguous tags
+"Use ^t to jump back up the tag stack
+
+" }}}
+
+
+" SESSION SAVE ------------------------------------------------------------ {{{
+
+" Return to where you left off
+" Use command 'vim -S' to load session if Session.vim exists in the project directory
+
+let g:source_any = 0 " variable indicating if vim sourced Session.vim
+
+autocmd SourcePre * 
+			\ if expand("<afile>") ==# "Session.vim" |
+			\ 	let g:source_any = 1 |
+			\ endif
+
+autocmd VimLeavePre * call UpdateSessionOnExit()
+
+function! UpdateSessionOnExit()
+	if g:source_any == 1
+		 execute "mksession!"
+	elseif &filetype !=# 'gitcommit'
+    let l:answer = input("Create project session? [y/N]: ")
+    if l:answer ==# 'y'
+      execute "mksession"
+    endif
+  endif
+endfunction
+
+
+" }}}
+
+
 " PLUGINS ---------------------------------------------------------------- {{{
 
 " The matchit plugin makes the % command work better, but it is not backwards
@@ -46,25 +95,6 @@ if has('syntax') && has('eval')
 	packadd! matchit
 endif
 
-
-" Return to where you left off
-" Load session if .session.vim exists in the project directory
-autocmd VimEnter * if filereadable(".session.vim") | source .session.vim | endif
-
-" Prompt to update session on exit
-autocmd VimLeavePre * call UpdateProjectSession()
-
-function! UpdateProjectSession()
-  if filereadable(".session.vim")
-    let l:answer = input("Update .session.vim? [y/N]: ")
-    if l:answer ==# 'y'
-      execute "mksession! .session.vim"
-      echo ".session.vim updated."
-    else
-      echo "Session not updated."
-    endif
-  endif
-endfunction
 
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
 if empty(glob(data_dir . '/autoload/plug.vim'))
@@ -92,13 +122,13 @@ function! ToggleLineNumbering()
 endfunction
 
 " F2 - Toggle between relative and absolute line number
-nnoremap <F2> :call ToggleLineNumbering()<CR>
+nnoremap <F3> :call ToggleLineNumbering()<CR>
 
 " F7 - Indent entire file (cursor remains in place)
 map <F7> mzgg=G<CR>`z
 
 " :SS - run mksession with .session.vim file name
-command! SS execute 'mksession! .session.vim'
+nnoremap <F2> :mksession!<CR>
 
 " }}}
 
